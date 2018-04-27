@@ -1,0 +1,10 @@
+{
+  "name": "Flight Schedule",
+  "theme_color": "lightseagreen",
+  "background_color": "white",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/index.html",
+  "icons": [],
+  "splash_pages": null
+}

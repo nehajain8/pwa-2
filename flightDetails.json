@@ -1,0 +1,29 @@
+{
+"Flight":[
+  {
+    "flightJourney":"Malta to London",
+    "flightTime":"9:45",
+    "flightStatus":"DELAYED"
+  },
+  {
+    "flightJourney":"Malta to Poznan",
+    "flightTime":"10:00",
+    "flightStatus":"ON TIME"
+  },
+  {
+    "flightJourney":"Malta to London",
+    "flightTime":"11:45",
+    "flightStatus":"ON TIME"
+  },
+  {
+    "flightJourney":"Malta to Rome",
+    "flightTime":"12:05",
+    "flightStatus":"ON TIME"
+  },
+  {
+    "flightJourney":"Malta to Paris",
+    "flightTime":"12:35",
+    "flightStatus":"DELAYED"
+  }
+]
+}

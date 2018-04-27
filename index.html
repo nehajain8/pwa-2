@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="D:\Acadgild\Progressive Web Apps\Assignment-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight schedule App</title>
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+ 
+  
+  <!--Manifest here -->
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__title">Arrivals</h1>
+  </header>
+  <!-- Load static fake data when app is offline -->
+  <main class="main">
+      <div class="FlightTemplate"><div class="leftDiv"><div class="Flightjourney">Malta to Amsterdam</div>
+      <div class="FlightTime">8:45</div>
+    </div><div class="rightDiv">
+      <div class="FlightStatus">ON TIME</div>
+    </div></div>
+  </main>
+
+
+  <div class="loader">
+    <svg viewBox="0 0 32 32" width="32" height="32">
+      <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+    </svg>
+  </div>
+
+  <!-- Uncomment the line below when ready to test with fake data -->
+  <script src="scripts/app.js" ></script>
+
+</body>
+</html>
